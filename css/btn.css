@@ -9,3 +9,17 @@
   display: inline-block;
   letter-spacing: 2px;
 }
+.btn--hero {
+  position: relative;
+}
+.btn--hero::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  /* atstumti i kaire per puse el plocio */
+  transform: translateX(-50%);
+  width: 1px;
+  background-color: snow;
+  height: 500px;
+}
