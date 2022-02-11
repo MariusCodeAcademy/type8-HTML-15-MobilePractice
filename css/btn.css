@@ -1,0 +1,11 @@
+.btn {
+  border: 1px solid snow;
+  border-radius: 3px;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 8px 35px;
+  text-transform: uppercase;
+  color: snow;
+  display: inline-block;
+  letter-spacing: 2px;
+}
