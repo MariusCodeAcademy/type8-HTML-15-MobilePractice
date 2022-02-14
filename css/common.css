@@ -46,6 +46,18 @@ p {
   top: 50%;
   transform: rotate(37.4deg) translateY(-50%);
 }
+.cao-cross::after {
+  transition: all 0.3s;
+  transition: top 0.5s, transform 0.5s;
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 200%;
+  left: -50%;
+  background-color: aliceblue;
+  top: 50%;
+  transform: rotate(-37.4deg) translateY(-50%);
+}
 
 @media screen and (min-width: 1200px) {
   .container {
