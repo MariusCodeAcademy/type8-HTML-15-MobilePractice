@@ -103,6 +103,34 @@
   text-align: center;
 }
 
+/* CAO  */
+
+.cao-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cao-figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.cao-figure:hover .cao-cross::before {
+  top: 100%;
+  transform: rotate(0) translateY(0);
+}
+
+.cao-figure figcaption {
+  font-weight: normal;
+  font-size: 3rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  color: aliceblue;
+}
+
 @media screen and (min-width: 500px) {
   .hero-text-block {
     align-items: center;
